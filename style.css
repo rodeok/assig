@@ -1,0 +1,187 @@
+
+*{
+    margin: 0;
+    padding: 0;
+/*    background: #f5f5f5;*/
+/*    overflow: hidden;*/
+/*    position: fixed;*/
+/*    overflow-x: hidden;*/
+}
+ html{
+     scroll-behavior: smooth;
+ }
+
+.btn btn-success{
+    border-style: none;
+    outline: none;
+    border-radius: 10px;
+    
+}
+.byran{
+    display: flex;
+    margin: 100px
+}
+.data{
+    display: flex;
+    margin: 100px;
+}
+.color-text{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.design{
+    margin: 50px;
+}
+.end-text{
+    margin: 50px;
+    align-items: center;
+}
+.str{
+    display: flex;
+    margin: 100px;
+}
+.james{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    list-style: none;
+}
+.skill-center{
+    display: flex;
+    align-items: center;
+    /* background: #F2F2F2; */
+}
+.duck{
+    margin: 70px;
+    background: #F2F2F2;
+}
+.skill{
+    margin: 100px;
+}
+.contact{
+    display: flex;
+    background: wheat;
+    margin: 50px
+}
+.ty, .email, .fav{
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 5vh;
+    outline: none;
+}
+.send{
+    /* outline: none; */
+    /* border: none; */
+    background: #03b1fc;
+    /* border-radius: 20px; */
+}
+/* .pics{ */
+    /* display: flex; */
+/* } */
+::placeholder{
+    color: red;
+    background: wheat;
+    outline: none;
+    border: none;
+}
+.miller{
+    background: #0058AF;
+    /* padding: 100px; */
+    display: flex;
+    /* margin: 20px; */
+}
+button{
+    outline: none;
+    border: none;
+    padding: 3px;
+    background: #03b1fc;
+    border-radius: 50px;
+    color: #f5f5f5;
+}
+.kill{
+    display: flex;
+    margin: 90px;
+}
+ul li{
+    list-style: none;
+    color: white;
+}
+label{
+    color: wheat;
+}
+.foot{
+    background: #004488;
+    padding: 10px;
+}
+.jam{
+    margin: 50px;
+}
+.mapp{
+    color: #fff;
+}
+.round{
+    color: white;
+}
+
+.line{
+/*    border-bottom: 5px solid aqua;*/
+    width: 10%;
+    position: relative;
+}
+.lite{
+    border-left: 2px solid aqua;
+}
+.txt{
+    margin: 80px;
+}
+.poppi{
+    font-size: 20px
+}
+.tit{
+    text-align: center
+}
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center!important;
+    background-color: #004488;
+}
+.sars{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.tit::after{
+    content: '';
+    display: inline-block;
+    width: 5%;
+    height: 4px;
+    margin-top: -100px;
+    /* margin-right: -100%; */
+    border-bottom: 2px solid red;
+}
+hr{
+    width: 50px;
+    top: 50%;
+    transform: translate(450%);
+}
+.werk{
+    display: flex;
+}
+@media screen and (max-width:1024){
+    .tit{
+        text-align: center;
+    }
+    hr{
+    width: 50px;
+    top: 100%;
+    transform: translate(-400%)
+}
+}
+@media screen and (max-width:715){
+    navbar navbar-light bg-light{
+        width: 120px;
+    }
+}
